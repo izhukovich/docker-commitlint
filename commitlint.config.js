@@ -8,6 +8,5 @@ module.exports = {
   rules: {
     'imperative-tense': [2, 'always'],
     'scope-case': [0, 'always', 'lower-case'],
-    'subject-case': [2, 'always', 'sentence-case'],
   }
 };
