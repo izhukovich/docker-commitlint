@@ -1,11 +1,10 @@
 # docker-commitlint
 
 This is a preconfigured Docker image with [commitlint](https://commitlint.js.org).
-It is configured for use within Extenda Retail and has the following settings
+It has the following settings
 
   * Extend `@commitlint/config-conventional`
   * Disable the `scope-case` rule to allow any case
-  * Change the `subject-case` rule to `sentence-case`
   * Custom `imperative-tense` rule to check subjects for imperative mood
 
 ## :rocket: Usage
